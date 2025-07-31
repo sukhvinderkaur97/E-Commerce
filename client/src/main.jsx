@@ -6,9 +6,9 @@ import "bootstrap/dist/js/bootstrap.bundle.min"; // This adds Bootstrap JS funct
 import App from './App.jsx'
 import { BrowserRouter } from "react-router-dom";
 // configure the authcontext 
-import { AuthProvider } from './context_temp/auth.jsx';
-import { SearchProvider } from './context_temp/search.jsx';
-import { CartProvider } from './context_temp/cart.jsx';
+import { AuthProvider } from './context/auth.jsx';
+import { SearchProvider } from './context/search.jsx';
+import { CartProvider } from './context/cart.jsx';
 import "antd/dist/reset.css";
 import { GoogleOAuthProvider } from '@react-oauth/google'; // for Google OAuth
 
