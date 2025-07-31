@@ -2,7 +2,7 @@ import { Routes, Route } from "react-router-dom"
 import HomePages from "./pages/HomePages"
 import About from "./pages/About"
 import Register from "./pages/Auth/Register"
-import Contact from "./pages/contact"
+import Contact from "./pages/Contact_temp.jsx"
 import Policy from "./pages/policy"
 import Pagenotfound from "./pages/pagenotfound"
 // for notifications using npm toastify 
