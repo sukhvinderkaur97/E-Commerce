@@ -3,7 +3,6 @@ import { createRoot } from 'react-dom/client'
 import "./index.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min"; // This adds Bootstrap JS functionalities
-
 import App from './App.jsx'
 import { BrowserRouter } from "react-router-dom";
 // configure the authcontext 
@@ -13,7 +12,7 @@ import { CartProvider } from './context/cart.jsx';
 import "antd/dist/reset.css";
 import { GoogleOAuthProvider } from '@react-oauth/google'; // for Google OAuth
 
-import axios from "axios"; // ✅ Add this if not already imported
+import axios from "axios";
 
 // ✅ SET TOKEN TO AXIOS DEFAULT HEADERS IF PRESENT
 const authData = JSON.parse(localStorage.getItem("auth"));
