@@ -4,7 +4,7 @@ import axios from "axios"
 // react notificatio
 import toast from 'react-hot-toast';
 import { useNavigate } from 'react-router-dom'   // htmlFor navigate aab hm chate hai register karte hi login page pe redirect ho to iska use karete hai ye ek react hook hai  
-import "../../styles/Authstyles.css";
+import "../../styles/AuthStyles.css";
 import { GoogleLogin } from '@react-oauth/google';
 import { jwtDecode } from 'jwt-decode'; // ✅ CORRECT
 import { useAuth } from "../../context/auth";
