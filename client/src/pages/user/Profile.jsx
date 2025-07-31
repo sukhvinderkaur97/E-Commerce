@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
-import Layout from '../../components/Layout/Layout'
-import UserMenu from '../../components/Layout/UserMenu'
+import Layout from '../../Components/Layout/Layout'
+import UserMenu from '../../Components/Layout/UserMenu'
 import { useAuth } from "../../context/auth";
 import toast from "react-hot-toast";
 import axios from "axios";

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Layout from '../../components/Layout/Layout'; // ✅ Fixed import name
+import Layout from '../../Components/Layout/Layout'; // ✅ Fixed import name
 import axios from "axios";
 import { useNavigate, useLocation } from "react-router-dom";
 import toast from "react-hot-toast";

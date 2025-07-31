@@ -9,9 +9,9 @@ import Pagenotfound from "./pages/pagenotfound.jsx"
 import 'react-toastify/dist/ReactToastify.css'
 import Login from "./pages/Auth/Login"
 import Dashboard from "./pages/user/Dashboard.jsx"
-import PrivateRoute from "./components/Routes/Private.jsx";
+import PrivateRoute from "./Components/Routes/Private.jsx";
 import ForgotPasssword from "./pages/Auth/ForgotPasssword.jsx";
-import AdminRoute from "./components/Routes/AdminRoute.jsx";
+import AdminRoute from "./Components/Routes/AdminRoute.jsx";
 import AdminDashboard from "./pages/Admin/AdminDashboard.jsx";
 import CreateCategory from "./pages/Admin/CreateCategory.jsx"// for admin
 import CreateProduct from "./pages/Admin/CreateProduct.jsx";
