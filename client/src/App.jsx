@@ -8,7 +8,7 @@ import Pagenotfound from "./pages/pagenotfound.jsx"
 // for notifications using npm toastify 
 import 'react-toastify/dist/ReactToastify.css'
 import Login from "./pages/Auth/Login"
-import Dashboard from "./pages/user/Dashboard"
+import Dashboard from "./pages/User_temp/Dashboard.js"
 import PrivateRoute from "./components/Routes/Private";
 import ForgotPasssword from "./pages/Auth/ForgotPasssword";
 import AdminRoute from "./components/Routes/AdminRoute";
@@ -18,8 +18,8 @@ import CreateProduct from "./pages/Admin/CreateProduct";
 import UpdateProduct from "./pages/Admin/UpdateProduct"; // for admin
 import Products from  "./pages/Admin/Products"// for admin
 import Users from "./pages/Admin/Users"
-import Orders from "./pages/user/Orders" // for user
-import Profile from "./pages/user/Profile"
+import Orders from "./pages/User_temp/Orders.js" // for user
+import Profile from "./pages/User_temp/Profile.jsx"
 import Search from "./pages/Search.jsx";
 import ProductDetails from "./pages/ProductDetails";
 import Categories from "./pages/Categories";
