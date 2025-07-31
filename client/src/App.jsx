@@ -3,7 +3,7 @@ import HomePages from "./pages/HomePages"
 import About from "./pages/About"
 import Register from "./pages/Auth/Register"
 import Contact from "./pages/Contact.jsx"
-import Policy from "./pages/policy"
+import Policy from "./pages/Policy_temp.jsx"
 import Pagenotfound from "./pages/pagenotfound"
 // for notifications using npm toastify 
 import 'react-toastify/dist/ReactToastify.css'
