@@ -4,7 +4,7 @@ import About from "./pages/About"
 import Register from "./pages/Auth/Register"
 import Contact from "./pages/Contact.jsx"
 import Policy from "./pages/policy.jsx"
-import Pagenotfound from "./pages/Pagenotfound_temp.jsx"
+import Pagenotfound from "./pages/pagenotfound.jsx"
 // for notifications using npm toastify 
 import 'react-toastify/dist/ReactToastify.css'
 import Login from "./pages/Auth/Login"
