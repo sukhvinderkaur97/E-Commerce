@@ -7,7 +7,7 @@ import { useNavigate } from 'react-router-dom'   // htmlFor navigate aab hm chat
 import "../../styles/Authstyles.css";
 import { GoogleLogin } from '@react-oauth/google';
 import { jwtDecode } from 'jwt-decode'; // ✅ CORRECT
-import { useAuth } from "../../context/auth";
+import { useAuth } from "../../context_temp/auth";
 
 
 const Register = () => {
