@@ -8,7 +8,7 @@ import Pagenotfound from "./pages/pagenotfound.jsx"
 // for notifications using npm toastify 
 import 'react-toastify/dist/ReactToastify.css'
 import Login from "./pages/Auth/Login"
-import Dashboard from "./pages/user/Dashboard.js"
+import Dashboard from "./pages/user/Dashboard.jsx"
 import PrivateRoute from "./components/Routes/Private";
 import ForgotPasssword from "./pages/Auth/ForgotPasssword";
 import AdminRoute from "./components/Routes/AdminRoute";
