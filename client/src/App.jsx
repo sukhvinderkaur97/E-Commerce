@@ -1,7 +1,7 @@
 import { Routes, Route } from "react-router-dom"
-import HomePages from "./pages/HomePages"
-import About from "./pages/About"
-import Register from "./pages/Auth/Register"
+import HomePages from "./pages/HomePages.jsx"
+import About from "./pages/About.jsx"
+import Register from "./pages/Auth/Register.jsx"
 import Contact from "./pages/Contact.jsx"
 import Policy from "./pages/policy.jsx"
 import Pagenotfound from "./pages/pagenotfound.jsx"
@@ -9,21 +9,21 @@ import Pagenotfound from "./pages/pagenotfound.jsx"
 import 'react-toastify/dist/ReactToastify.css'
 import Login from "./pages/Auth/Login"
 import Dashboard from "./pages/user/Dashboard.jsx"
-import PrivateRoute from "./components/Routes/Private";
-import ForgotPasssword from "./pages/Auth/ForgotPasssword";
-import AdminRoute from "./components/Routes/AdminRoute";
-import AdminDashboard from "./pages/Admin/AdminDashboard";
-import CreateCategory from "./pages/Admin/CreateCategory"// for admin
-import CreateProduct from "./pages/Admin/CreateProduct";
-import UpdateProduct from "./pages/Admin/UpdateProduct"; // for admin
-import Products from  "./pages/Admin/Products"// for admin
-import Users from "./pages/Admin/Users"
-import Orders from "./pages/user/Orders.js" // for user
+import PrivateRoute from "./components/Routes/Private.jsx";
+import ForgotPasssword from "./pages/Auth/ForgotPasssword.jsx";
+import AdminRoute from "./components/Routes/AdminRoute.jsx";
+import AdminDashboard from "./pages/Admin/AdminDashboard.jsx";
+import CreateCategory from "./pages/Admin/CreateCategory.jsx"// for admin
+import CreateProduct from "./pages/Admin/CreateProduct.jsx";
+import UpdateProduct from "./pages/Admin/UpdateProduct.jsx"; // for admin
+import Products from  "./pages/Admin/Products.jsx"// for admin
+import Users from "./pages/Admin/Users.jsx"
+import Orders from "./pages/user/Orders.jsx" // for user
 import Profile from "./pages/user/Profile.jsx"
 import Search from "./pages/Search.jsx";
-import ProductDetails from "./pages/ProductDetails";
-import Categories from "./pages/Categories";
-import CategoryProduct from "./pages/CategoryProduct";
+import ProductDetails from "./pages/ProductDetails.jsx";
+import Categories from "./pages/Categories.jsx";
+import CategoryProduct from "./pages/CategoryProduct.jsx";
 import CartPage from "./pages/CartPage.jsx"
 import TestDropIn from "./pages/TestDropIn.jsx";
 
